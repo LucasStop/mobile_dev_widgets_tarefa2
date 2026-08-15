@@ -38,6 +38,7 @@ class _ProfileCardScreenState extends State<ProfileCardScreen> {
           children: [
             Text(
               _displayedName,
+              key: const Key('displayedNameText'),
               style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             const Text(
